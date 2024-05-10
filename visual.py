@@ -7,7 +7,7 @@ import pycountry
 # Read data
 @st.cache_data
 def load_data():
-    return pd.read_csv("result_csv.csv")
+    return pd.read_csv("cleaned_data.csv")
 
 df = load_data()
 
